@@ -41,7 +41,7 @@ cmake ..
 
 make
 
-./yolov4 -s
+./yolov4-tiny -s
 
 // serialize the model and generate yolov4-tiny.engine
 
