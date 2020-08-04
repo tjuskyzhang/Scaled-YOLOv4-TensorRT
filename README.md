@@ -34,3 +34,9 @@ cd build
 cmake ..
 
 make
+
+./yolov4 -s
+
+// serialize the model and generate yolov4-tiny.engine
+
+./yolov4-tiny -d ../samples
