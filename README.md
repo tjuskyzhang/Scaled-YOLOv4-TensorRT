@@ -47,4 +47,4 @@ make
 
 ./yolov4-tiny -d ../samples
 
-// deserialize and generate the detection results _test.jpg
+// deserialize and generate the detection results _dog.jpg
