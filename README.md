@@ -1,7 +1,9 @@
 # yolov4-tiny-tensorrt
 yolov4-tiny-tensorrt
 
+
 This project is based on https://github.com/wang-xinyu/tensorrtx/tree/trt4 and https://github.com/WongKinYiu/PyTorch_YOLOv4
+
 
 (1) Generate yolov4-tiny.wts from pytorch implementation
 
@@ -19,3 +21,16 @@ python gen_wts.py weights/yolov4-tiny.pt
 
 // a file 'yolov4-tiny.wts' will be generated
 
+cp yolov4-tiny.wts ../yolov4-tiny-tensorrt
+
+(2) Build and run
+
+cd yolov4-tiny-tensorrt
+
+mkdir build
+
+cd build
+
+cmake ..
+
+make
