@@ -12,7 +12,9 @@ This project has been tested on cuda 9.0, cudnn 7.5, tensorrt 5.1.5
 git clone https://github.com/WongKinYiu/PyTorch_YOLOv4.git
 
 // download yolov4-tiny.pt and copy it into PyTorch_YOLOv4/weights
+
 // 链接：https://pan.baidu.com/s/1lEXCyDJyjL9B0WR-MKzAeg 
+
 // 提取码：ml0o 
 
 git clone https://github.com/tjuskyzhang/yolov4-tiny-tensorrt.git
