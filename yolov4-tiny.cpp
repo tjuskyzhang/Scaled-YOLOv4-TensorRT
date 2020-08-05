@@ -431,7 +431,7 @@ int main(int argc, char** argv) {
         IHostMemory* modelStream{nullptr};
         APIToModel(BATCH_SIZE, &modelStream);
         assert(modelStream != nullptr);
-        std::ofstream p("yolov4.engine", std::ios::binary);
+        std::ofstream p("yolov4-tiny.engine", std::ios::binary);
         if (!p) {
             std::cerr << "could not open plan output file" << std::endl;
             return -1;
@@ -440,7 +440,7 @@ int main(int argc, char** argv) {
         modelStream->destroy();
         return 0;
     } else if (argc == 3 && std::string(argv[1]) == "-d") {
-        std::ifstream file("yolov4.engine", std::ios::binary);
+        std::ifstream file("yolov4-tiny.engine", std::ios::binary);
         if (file.good()) {
             file.seekg(0, file.end);
             size = file.tellg();
