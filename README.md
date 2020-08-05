@@ -2,9 +2,11 @@
 yolov4-tiny-tensorrt
 
 
-This project is based on https://github.com/wang-xinyu/tensorrtx/tree/trt4 and https://github.com/WongKinYiu/PyTorch_YOLOv4
+This project is based on https://github.com/wang-xinyu/tensorrtx/tree and https://github.com/WongKinYiu/PyTorch_YOLOv4
 
-This project has been tested on cuda 9.0, cudnn 7.5, tensorrt 5.1.5
+This project has been tested on tensorrt 7
+
+Aonther branch trt5 for tensorrt 4&5: https://github.com/tjuskyzhang/yolov4-tiny-tensorrt/tree/trt5
 
 
 (1) Generate yolov4-tiny.wts from pytorch implementation
