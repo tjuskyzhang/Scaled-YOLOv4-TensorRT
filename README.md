@@ -2,7 +2,7 @@
 yolov4-tiny-tensorrt
 
 
-This project is based on https://github.com/wang-xinyu/tensorrtx/tree and https://github.com/WongKinYiu/PyTorch_YOLOv4
+This project is based on https://github.com/wang-xinyu/tensorrtx and https://github.com/WongKinYiu/PyTorch_YOLOv4
 
 This project has been tested on tensorrt 7
 
