@@ -452,8 +452,8 @@ int main(int argc, char** argv) {
         }
     } else {
         std::cerr << "arguments not right!" << std::endl;
-        std::cerr << "./yolov4 -s  // serialize model to plan file" << std::endl;
-        std::cerr << "./yolov4 -d ../samples  // deserialize plan file and run inference" << std::endl;
+        std::cerr << "./yolov4-tiny -s  // serialize model to plan file" << std::endl;
+        std::cerr << "./yolov4-tiny -d ../samples  // deserialize plan file and run inference" << std::endl;
         return -1;
     }
 
