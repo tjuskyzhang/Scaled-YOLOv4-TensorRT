@@ -6,7 +6,7 @@ This project is based on https://github.com/wang-xinyu/tensorrtx/tree and https:
 
 This project has been tested on tensorrt 7
 
-Aonther branch trt5 for tensorrt 4&5: https://github.com/tjuskyzhang/yolov4-tiny-tensorrt/tree/trt5
+Another branch "trt5" for tensorrt 4 & 5: https://github.com/tjuskyzhang/yolov4-tiny-tensorrt/tree/trt5
 
 
 (1) Generate yolov4-tiny.wts from pytorch implementation
