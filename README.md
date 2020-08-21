@@ -50,8 +50,15 @@
   ./yolov4-tiny -s
 ```
 
-// Deserialize and generate the detection results _dog.jpg
+// Deserialize and generate the detection results _dog.jpg and so on.
 
 ```
   ./yolov4-tiny -d ../samples
 ```
+![](/results/_bus.jpg)
+![](/results/_dog.jpg)
+![](/results/_kite.jpg)
+![](/results/_person.jpg)
+![](/results/_horses.jpg)
+![](/results/_giraffe.jpg)
+![](/results/_eagle.jpg)
