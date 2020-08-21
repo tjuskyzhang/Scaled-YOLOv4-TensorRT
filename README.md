@@ -55,7 +55,7 @@
 ```
   ./yolov4-tiny -d ../samples
 ```
-![](/results/_bus.jpg)
+![](./results/_bus.jpg)
 ![](/results/_dog.jpg)
 ![](/results/_kite.jpg)
 ![](/results/_person.jpg)
