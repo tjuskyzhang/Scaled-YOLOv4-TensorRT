@@ -55,12 +55,3 @@
 ```
   ./yolov4-tiny -d ../samples
 ```
-<p align="center">
-<img src="https://github.com/tjuskyzhang/yolov4-tiny-tensorrt/results/_bus.jpg">
-</p>
-![](/results/_dog.jpg)
-![](/results/_kite.jpg)
-![](/results/_person.jpg)
-![](/results/_horses.jpg)
-![](/results/_giraffe.jpg)
-![](/results/_eagle.jpg)
