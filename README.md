@@ -13,7 +13,7 @@ Another branch "trt5" for tensorrt 4 & 5: https://github.com/tjuskyzhang/yolov4-
 
 git clone https://github.com/WongKinYiu/PyTorch_YOLOv4.git
 
-// download yolov4-tiny.pt and copy it into PyTorch_YOLOv4/weights
+// download yolov4-tiny.pt (from: https://github.com/WongKinYiu/PyTorch_YOLOv4/tree/master) and copy it into PyTorch_YOLOv4/weights
 
 // 链接：https://pan.baidu.com/s/1lEXCyDJyjL9B0WR-MKzAeg 
 
