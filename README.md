@@ -3,6 +3,8 @@
 ## yolov4-tiny-tensorrt:
 * This project is based on [wang-xinyu/tensorrtx](https://github.com/wang-xinyu/tensorrtx) and [WongKinYiu/PyTorch_YOLOv4](https://github.com/WongKinYiu/PyTorch_YOLOv4/tree/master). The project has been tested on TensorRT 7.0 CUDA 10.2 CUDNN 7.6.5, and costs about 2ms(500fps) to inference an image on GeForce GTX 1660 Ti.
 
+* The project also has been tested on TensorRT 7.1.0(Developer Preview) CUDA 10.2 CUDNN 8.0.0(Developer Preview), and costs about 10~11ms(90~100fps) to inference an image on TX2.
+
 * There is another branch ["trt5"](https://github.com/tjuskyzhang/yolov4-tiny-tensorrt/tree/trt5) for TensorRT 4 & 5.
 
 ## Excute:
