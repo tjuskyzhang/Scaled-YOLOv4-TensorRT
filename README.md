@@ -7,6 +7,8 @@
 
 * There is another branch ["trt5"](https://github.com/tjuskyzhang/yolov4-tiny-tensorrt/tree/trt5) for TensorRT 4 & 5.
 
+* Another project ["mobilenetv1-ssd-tensorrt"](https://github.com/tjuskyzhang/mobilenetv1-ssd-tensorrt).
+
 ## Excute:
 
 (1) Generate yolov4-tiny.wts from pytorch implementation
