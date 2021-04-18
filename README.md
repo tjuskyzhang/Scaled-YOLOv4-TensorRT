@@ -7,6 +7,8 @@
 
 * There is another branch ["trt5"](https://github.com/tjuskyzhang/yolov4-tiny-tensorrt/tree/trt5) for TensorRT 4 & 5.
 
+* Another project ["yolov4-csp-tensorrt"](https://github.com/tjuskyzhang/yolov4-csp-tensorrt).
+
 
 ## Excute:
 
