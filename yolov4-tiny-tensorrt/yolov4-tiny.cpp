@@ -241,7 +241,7 @@ ICudaEngine* createEngine(unsigned int maxBatchSize, IBuilder* builder, IBuilder
     auto l2 = convBnLeaky(network, weightMap, *l1->getOutput(0), 64, 3, 1, 1, 2);
 
     // route_lhalf
-    ISliceLayer* l3= network->addSlice(*l2->getOutput(0),Dims3{0,0,0},Dims3{32, INPUT_W / 4, INPUT_H / 4},Dims3{1,1,1});
+    ISliceLayer* l3= network->addSlice(*l2->getOutput(0),Dims3{0,0,0},Dims3{32, INPUT_H / 4, INPUT_W / 4},Dims3{1,1,1});
 
     auto l4 = convBnLeaky(network, weightMap, *l3->getOutput(0), 32, 3, 1, 1, 4);
     auto l5 = convBnLeaky(network, weightMap, *l4->getOutput(0), 32, 3, 1, 1, 5);
@@ -258,7 +258,7 @@ ICudaEngine* createEngine(unsigned int maxBatchSize, IBuilder* builder, IBuilder
     auto l10 = convBnLeaky(network, weightMap, *pool9->getOutput(0), 128, 3, 1, 1, 10);
 
     // route_lhalf
-    ISliceLayer* l11= network->addSlice(*l10->getOutput(0),Dims3{0,0,0},Dims3{64,INPUT_W / 8, INPUT_H / 8},Dims3{1,1,1});
+    ISliceLayer* l11= network->addSlice(*l10->getOutput(0),Dims3{0,0,0},Dims3{64,INPUT_H / 8, INPUT_W / 8},Dims3{1,1,1});
 
     auto l12 = convBnLeaky(network, weightMap, *l11->getOutput(0), 64, 3, 1, 1, 12);
     auto l13 = convBnLeaky(network, weightMap, *l12->getOutput(0), 64, 3, 1, 1, 13);
@@ -274,7 +274,7 @@ ICudaEngine* createEngine(unsigned int maxBatchSize, IBuilder* builder, IBuilder
     auto l18 = convBnLeaky(network, weightMap, *pool17->getOutput(0), 256, 3, 1, 1, 18);
 
     // route_lhalf
-    ISliceLayer* l19= network->addSlice(*l18->getOutput(0),Dims3{0,0,0},Dims3{128,INPUT_W / 16, INPUT_H / 16},Dims3{1,1,1});
+    ISliceLayer* l19= network->addSlice(*l18->getOutput(0),Dims3{0,0,0},Dims3{128,INPUT_H / 16, INPUT_W / 16},Dims3{1,1,1});
 
     auto l20 = convBnLeaky(network, weightMap, *l19->getOutput(0), 128, 3, 1, 1, 20);
     auto l21 = convBnLeaky(network, weightMap, *l20->getOutput(0), 128, 3, 1, 1, 21);
